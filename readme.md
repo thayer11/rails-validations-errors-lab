@@ -1,4 +1,5 @@
-# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Rails Validations &amp; Error-Handling
+![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
+Rails Validations & Error-Handling Lab
 
 Starter code and challenges for Validations & Error-Handling in Rails.
 
