@@ -27,30 +27,6 @@ Starter code and challenges for Validations & Error-Handling in Rails.
 
    > See the [Active Record Validation docs](http://guides.rubyonrails.org/active_record_validations.html) for guidance.
 
-2. In the Terminal, open up the Rails console, and try adding an invalid owner to the database using the `.create` method:
-
-  ```zsh
-  irb(main):001:0> guy = Owner.create({
-  irb(main):001:1>   first_name: "Guybrush",
-  irb(main):001:2>   last_name: "Threepwood"
-  irb(main):001:3> })
-  ```
-
-   What happens?
-
-
-3. Now try storing the invalid owner in memory with the `.new` method, and check if it's valid:
-
-   ```zsh
-   irb(main):001:0> guy = Owner.new({
-   irb(main):001:1>   first_name: "Guybrush",
-   irb(main):001:2>   last_name: "Threepwood"
-   irb(main):001:3> })
-   irb(main):001:4> guy.valid?
-   ```
-
-4. Still in the Rails console, use `.errors.full_messages` to display the user-friendly error messages for the invalid owner you just created.
-
 #### Refactor Controller to Handle Errors
 
 1. The `owners#create` method currently looks like this:
