@@ -4,14 +4,18 @@
 Starter code and challenges for Validations & Error-Handling in Rails.
 
 ## Getting Started
+<details>
+<summary>See if you can fork and clone this repo, and get a Rails server running.  If you need a hint, expand this, but try it once without looking if you can.</summary>
+<ol>
+<li>Fork this repo, and clone it into your WDI class folder on your local machine.</li>
+<li>Run `bundle` in the Terminal to install gems from the Gemfile.</li>
+<li>Run `rake db:create db:migrate` in the Terminal to create your local database and run the migrations.</li>
+<li>Run `rails s` in the Terminal to start your server.</li>
+<li>Navigate to `localhost:3000` in the browser - you should see a generic `site#index` page.</li>
+</ol>
+</details>
 
-1. Fork this repo, and clone it into your WDI class folder on your local machine.
-2. Run `bundle` in the Terminal to install gems from the Gemfile.
-3. Run `rake db:create db:migrate` in the Terminal to create your local database and run the migrations.
-4. Run `rails s` in the Terminal to start your server.
-5. Navigate to `localhost:3000` in the browser - you should see a generic `site#index` page.   
-6. Run `rake routes` to see what routes are available in the app.
-
+Finally, run `rake routes` to see what routes are available in the app.
 
 ## Challenges
 
